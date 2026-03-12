@@ -1,0 +1,9 @@
+node_modules/
+frontend/node_modules/
+frontend/build/
+*.db
+uploads/
+.env
+.claude/
+package-lock.json
+frontend/package-lock.json

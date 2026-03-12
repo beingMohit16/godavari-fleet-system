@@ -1,0 +1,25 @@
+{
+  "name": "godavari-fleet-system",
+  "version": "2.0.0",
+  "main": "backend/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm install && npm run build",
+    "dev:backend": "node backend/server.js",
+    "dev:frontend": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "sql.js": "^1.12.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "archiver": "^7.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
